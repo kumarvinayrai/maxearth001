@@ -1,0 +1,416 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <!-- Title -->
+    <title>Welcome To Max Earth Resources!</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/logo/favicon.png">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all-fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        .footer-content-box p {
+            color: var(--color-white);
+            padding-right: 18px;
+            margin-bottom: 20px;
+        }
+
+        .footer-content-title {
+            color: var(--color-white);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            font-size: 21px;
+        }
+
+        .txt-warning {
+            color: var(--theme-color);
+        }
+
+        .min-height {
+            min-height: 70rem;
+        }
+
+        .login-area {
+            background-color: #f0f0f0;
+        }
+
+        .alert-warning {
+            --bs-alert-color: #fff;
+            --bs-alert-bg: var(--theme-color);
+        }
+		 
+.header-top {
+  background: var(--color-dark);
+  padding: 14px 0 16px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.header-top::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 10%;
+  background: var(--theme-color);
+  z-index: -1;
+}
+
+.header-top::after {
+  content: "";
+  position: absolute;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  background: var(--theme-color);
+  border-left: 10px solid var(--color-white);
+  border-right: 10px solid var(--color-white);
+  z-index: -1;
+}
+
+.header-top-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-top-contact ul {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.header-top-contact a {
+  color: var(--color-white);
+}
+
+.header-top-contact a i {
+  color: var(--theme-color);
+}
+
+.header-top-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-top-link a {
+  color: var(--color-white);
+  margin-right: 12px;
+}
+
+.header-top-link a:hover {
+  color: var(--theme-color);
+}
+
+.header-top-social span {
+  color: var(--color-white);
+}
+
+.header-top-social a {
+  color: var(--color-white);
+  font-size: 16px;
+  text-align: center;
+  margin-left: 14px;
+  transition: var(--transition);
+}
+
+.header-top-social a:hover {
+  color: var(--color-dark);
+}
+
+
+@media all and (max-width: 1199px) {
+
+  .header-top-contact ul {
+    gap: 10px;
+  }
+
+  .header-top-social a {
+    width: 34px;
+    height: 34px;
+    line-height: 37px;
+    margin-left: 0;
+  }
+
+  .header-top-left {
+    margin-right: 5px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .header-top {
+    display: none;
+  }
+}
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Area -->
+    <header class="header">
+       <!-- Top Header -->
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-wrapper">
+                    <div class="header-top-left">
+                        <div class="header-top-contact">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="far fa-location-dot"></i>
+                                        Wellington Business Park-1 Andheri East, Mumbai-400059
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="far fa-envelopes"></i>
+                                        <span>support@maxearth.com</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+21236547898">
+                                        <i class="far fa-phone-volume"></i>
+                                        +91 9664233822
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header-top-right">
+                        <div class="header-top-social">
+                            <span>Follow Us: </span>
+                            <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                            <a href="https://x.com"><i class="fab fa-x-twitter"></i></a>
+                            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                            <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Login Area -->
+    <main class="main">
+        <section class="login-area py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-5">
+                        <div class="login-form p-4 shadow rounded bg-white">
+                            <div class="login-header text-center mb-4">
+                                <img src="assets/img/logo/logo.png" alt="Logo" class="img-fluid mb-3" style="max-height: 60px;">
+                                <p class="mb-0">Login with your Minox account</p>
+                            </div>
+
+                            <!-- Alert Box -->
+                            <div id="alertBox"></div>
+
+                            <!-- Login Form -->
+                            <form id="loginForm">
+                                <div class="form-group mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input id="email" type="email" placeholder="Your Email" class="form-control" />
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="password" class="form-label">Password</label>
+                                    <input id="password" type="password" placeholder="Your Password" class="form-control" />
+                                </div>
+                                <div class="d-flex justify-content-between mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="remember" />
+                                        <label class="form-check-label" for="remember">Remember Me</label>
+                                    </div>
+                                </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="theme-btn">
+                                        <i class="fa-solid fa-right-to-bracket"></i> Login
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+ <!-- footer area -->
+    <section>
+  <footer class="footer-area">
+    <div class="footer-content py-5">
+      <div class="container">
+        <div class="row">
+          <!-- About Us -->
+          <div class="col-md-6 col-lg-4">
+            <div class="footer-content-box about-us">
+              <a href="#" class="footer-logo d-inline-block mb-3">
+                <img src="assets/img/logo/logo-light.png" alt="MaxEarth Logo" />
+              </a>
+              <p class="mb-3">
+                We are many variations of passages available but the majority have suffered alteration in some form by injected humour words believable.
+              </p>
+              <ul class="list-unstyled footer-contact">
+                <li>
+                  <a href="tel:+919664233822"><i class="fa-solid fa-phone me-2"></i>+91 9664233822</a>
+                </li>
+                <li>
+                  <a href="mailto:info@maxearth.com"><i class="fa-solid fa-location-dot me-2"></i>103/104 Wellington Business Park-1 Marol, Andheri East, Mumbai-400059.</a>
+                </li>
+                <li>
+                  <a href="mailto:info@maxearth.com"><i class="fa-solid fa-envelope me-2"></i>info@maxearth.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-6 col-lg-2">
+            <div class="footer-content-box list">
+              <h4 class="footer-content-title">Quick Links</h4>
+              <ul class="footer-list list-unstyled">
+                <li><a href="about.html"><i class="fas fa-caret-right me-2"></i>About Us</a></li>
+                <li><a href="verticals.html"><i class="fas fa-caret-right me-2"></i>Verticals</a></li>
+                <li><a href="projects.html"><i class="fas fa-caret-right me-2"></i>Projects</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Our Services (Hidden Title) -->
+          <div class="col-md-6 col-lg-2">
+            <div class="footer-content-box list">
+              <h4 class="footer-content-title" style="visibility: hidden;">Our Services</h4>
+              <ul class="footer-list list-unstyled">
+                <li><a href="investors.html"><i class="fas fa-caret-right me-2"></i>Investors</a></li>
+                <li><a href="latestnews.html"><i class="fas fa-caret-right me-2"></i>latestNews</a></li>
+                <li><a href="contactus.html"><i class="fas fa-caret-right me-2"></i>Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="col-md-6 col-lg-3">
+            <div class="footer-content-box list">
+              <h4 class="footer-content-title">Join Our Newsletter</h4>
+              <div class="footer-newsletter">
+                <p>Stay updated with our latest news and offers.</p>
+                <form class="subscribe-form">
+                  <input type="email" class="form-control mb-2" placeholder="Your Email" required />
+                  <button class="theme-btn w-100" type="submit">
+                    Subscribe Now <i class="fa-solid fa-paper-plane ms-2"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <p class="copyright-text">
+              &copy; 2025 Max Earth Resources Ltd. All Rights Reserved..<br />
+              Powered by <a href="#">Neorotech Solutions Pvt Ltd.</a>
+            </p>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <ul class="footer-social">
+              <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+              <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+    <!-- js -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/modernizr.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/counter-up.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            const email = document.getElementById("email").value.trim();
+            const password = document.getElementById("password").value.trim();
+            const alertBox = document.getElementById("alertBox");
+
+            const validEmail = "admin@maxearth.com";
+            const validPassword = "MaxEarth123";
+
+            // Clear previous alerts
+            alertBox.innerHTML = "";
+
+            let alertType = "";
+            let alertMessage = "";
+
+            if (email === validEmail && password === validPassword) {
+                alertType = "warning";
+                alertMessage = "<strong>Success!</strong> Login successful. Redirecting...";
+            } else {
+                alertType = "danger";
+                alertMessage = "<strong>Error!</strong> Invalid email or password.";
+            }
+
+            alertBox.innerHTML = `
+                <div class="alert alert-${alertType} alert-dismissible fade show" role="alert">
+                    ${alertMessage}
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+            `;
+
+            // Auto-dismiss alert
+            setTimeout(() => {
+                const alertElement = bootstrap.Alert.getOrCreateInstance(document.querySelector(".alert"));
+                alertElement.close();
+            }, 3000);
+
+            // Redirect on success
+            if (alertType === "warning") {
+                setTimeout(() => {
+                    window.location.href = "annualreportsFrm.html";
+                }, 2000);
+            }
+        });
+    </script>
+</body>
+
+</html>
